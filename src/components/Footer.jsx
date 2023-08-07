@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mx-2">
       <Link
         to={"https://api.whatsapp.com/send?phone=5492267520604"}
         target="_blank"

@@ -6,6 +6,9 @@ import { sliderTintaRojaMain } from "../data/imagesData";
 import ReactImageGallery from "react-image-gallery";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
+import { BiBed } from "react-icons/bi";
+import { MdOutlineBathtub } from "react-icons/md";
+import { RiParkingLine } from "react-icons/ri";
 
 export const Header = () => {
   return (
@@ -13,7 +16,7 @@ export const Header = () => {
       <div className="container-fluid text-center">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 my-4">
               <h1>Casa Tinta Roja 1</h1>
             </div>
 
@@ -42,11 +45,41 @@ export const Header = () => {
             </div>
             <div className="col-12 col-sm-2">
               <div className="octagono my-1 mx-1 d-inline-block">
-                <BsPeople />
+                <span>
+                  <BsPeople size={60} className="mt-3" />
+                </span>
+                <h5>
+                  Habitaciones
+                  <br />
+                  10
+                </h5>
               </div>
-              <div className="octagono my-1 mx-1 d-inline-block"></div>
-              <div className="octagono my-1 mx-1 d-inline-block"></div>
-              <div className="octagono my-1 mx-1 d-inline-block"></div>
+              <div className="octagono my-1 mx-1 d-inline-block">
+                <span>
+                  <BiBed size={60} className="mt-3" />
+                </span>
+                <h5>
+                  Habitaciones
+                  <br />3
+                </h5>
+              </div>
+              <div className="octagono my-1 mx-1 d-inline-block">
+                <span>
+                  <MdOutlineBathtub size={60} className="mt-3" />
+                </span>
+                <h5>
+                  Baños
+                  <br />2
+                </h5>
+              </div>
+              <div className="octagono my-1 mx-1 d-inline-block">
+                <span>
+                  <RiParkingLine size={60} className="mt-3" />
+                </span>
+                <h5>
+                  Autos <br />3
+                </h5>
+              </div>
             </div>
             <div className="col ">
               <p className="d-inline-block texto-desc">
