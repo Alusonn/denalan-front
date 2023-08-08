@@ -2,7 +2,19 @@ body {
     background-color: #DDD4CF;
 }
 
+.titulo {
+    display: inline-block;
+    color: #655D51;
+    font-family: TAN Mon Cheri;
+    font-size: 50px;
+}
+
+.img-vertical {
+    opacity: 0.43;
+}
+
 .numero-wpp {
+    color: #F5F0ED;
     font-family: Belleza;
     display: inline;
     background-color: #9D9895;
@@ -20,6 +32,7 @@ body {
     font-size: 1.5rem;
     background-color: #9D9895;
     border-radius: 20px;
+    color: #ffffff;
 
 }
 
@@ -28,4 +41,8 @@ body {
     background-color: #9D9895;
     width: 143px;
     height: 143px;
+}
+
+h5 {
+    color: #F5F0ED;
 }

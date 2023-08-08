@@ -16,8 +16,8 @@ export const Header = () => {
       <div className="container-fluid text-center">
         <div className="container">
           <div className="row">
-            <div className="col-12 my-4">
-              <h1>Casa Tinta Roja 1</h1>
+            <div className="col-12 my-2">
+              <h1 className="titulo">Casa Tinta Roja 1</h1>
             </div>
 
             {/* Ubicacion del logo de la izquierda que esta en vertical */}
@@ -28,7 +28,7 @@ export const Header = () => {
               </Link>
             </div>
             <div className="col-12 col-sm-8 my-2">
-              {/* Galera desde NPM en react */}
+              {/* Galeria desde NPM en react */}
 
               <ReactImageGallery
                 items={sliderTintaRojaMain}
@@ -40,13 +40,13 @@ export const Header = () => {
                 showFullscreenButton={false}
               />
               <h4 className="numero-wpp my-3">
-                <AiOutlineWhatsApp className="mb-2" /> +54 9 2267520604
+                <AiOutlineWhatsApp className="mb-2" color="#FFFFFF"/> +54 9 2267520604
               </h4>
             </div>
             <div className="col-12 col-sm-2">
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <BsPeople size={60} className="mt-3" />
+                  <BsPeople size={60} className="mt-3" color="#FFFFFF"/>
                 </span>
                 <h5>
                   Personas
@@ -56,7 +56,7 @@ export const Header = () => {
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <BiBed size={60} className="mt-3" />
+                  <BiBed size={60} className="mt-3" color="#FFFFFF"/>
                 </span>
                 <h5>
                   Habitaciones
@@ -65,7 +65,7 @@ export const Header = () => {
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <MdOutlineBathtub size={60} className="mt-3" />
+                  <MdOutlineBathtub size={60} className="mt-3" color="#FFFFFF"/>
                 </span>
                 <h5>
                   Baños
@@ -74,7 +74,7 @@ export const Header = () => {
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <RiParkingLine size={60} className="mt-3" />
+                  <RiParkingLine size={60} className="mt-3" color="#FFFFFF" />
                 </span>
                 <h5>
                   Autos <br />3

@@ -7,14 +7,14 @@ export const sliderTintaRojaMain = [
         originalAlt: 'Foto de frente Casa Tinta Roja 1',
         originalWidth: '1600px',
         originalHeigth: '1200px',
-        originalClass: 'mb-3'
+        originalClass: 'mb-3 rounded-5'
     },
     {
         original: foto3,
         originalAlt: 'Foto de frente Casa Tinta Roja 1',
         originalWidth: '1600px',
         originalHeigth: '1200px',
-        originalClass: 'mb-3'
+        originalClass: 'mb-3 rounded-5'
     },
 
 ]
