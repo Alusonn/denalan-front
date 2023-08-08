@@ -2,7 +2,7 @@ import logoNegro from "../data/SodaPDF-converted-F99D55AE-D025-46D8-8BFE-5F203C5
 import "../styles/components/Header.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";
-import { sliderTintaRojaMain } from "../data/imagesData";
+import { sliderTintaRojaMain } from "../helpers/sliderTintaRojaMain";
 import ReactImageGallery from "react-image-gallery";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
@@ -49,7 +49,7 @@ export const Header = () => {
                   <BsPeople size={60} className="mt-3" />
                 </span>
                 <h5>
-                  Habitaciones
+                  Personas
                   <br />
                   10
                 </h5>

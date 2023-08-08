@@ -1,5 +1,5 @@
-import foto2 from './foto2.webp'
-import foto3 from './foto3.webp'
+import foto2 from '../data/foto2.webp'
+import foto3 from '../data/foto3.webp'
 
 export const sliderTintaRojaMain = [
     {
@@ -18,10 +18,3 @@ export const sliderTintaRojaMain = [
     },
 
 ]
-
-export const sliderTintaRojaSecond =[
-    {
-        
-    }
-]
-
