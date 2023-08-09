@@ -4,10 +4,12 @@ import ReactImageGallery from "react-image-gallery";
 import { sliderTintaRojaMain } from "../helpers/sliderTintaRojaMain";
 import { Link } from "react-router-dom";
 
-export const FirstSection = () => {
+export const FirstSection = ({ sliderTintaRoja }) => {
+
+
   return (
     <div className="container text-center">
-      <div className="row">
+      <div className="row justify-content-center align-items-center">
         <div className="col-10">
           <ReactImageGallery
             items={sliderTintaRojaMain}
@@ -19,7 +21,7 @@ export const FirstSection = () => {
             showFullscreenButton={false}
           />
         </div>
-        <div className="col-2">
+        <div className="col-2 ">
           <Link to={"/"}>
             <img src={logoNegro} alt="" className="img-vertical w-100" />
           </Link>
