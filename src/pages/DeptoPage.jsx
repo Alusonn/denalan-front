@@ -3,7 +3,7 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import '../styles/components/CasaPage.css'
 
-export const CasaPage = () => {
+export const DeptoPage = () => {
   return (
     <>
       <Header key={ 'departamento' }/>

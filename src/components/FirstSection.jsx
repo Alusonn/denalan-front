@@ -1,14 +1,14 @@
 import "react-image-gallery/styles/css/image-gallery.css";
-import logoNegro from "../data/SodaPDF-converted-F99D55AE-D025-46D8-8BFE-5F203C5846D6-removebg-preview.png";
 import ReactImageGallery from "react-image-gallery";
 import { sliderTintaRojaMain } from "../helpers/sliderTintaRojaMain";
-import { Link } from "react-router-dom";
 
 export const FirstSection = ({ sliderTintaRoja }) => {
-
-
   return (
+
+    // First Section
+
     <div className="container text-center">
+      <hr />
       <div className="row justify-content-center align-items-center">
         <div className="col-10">
           <ReactImageGallery
@@ -21,14 +21,15 @@ export const FirstSection = ({ sliderTintaRoja }) => {
             showFullscreenButton={false}
           />
         </div>
-        <div className="col-2 ">
-          <Link to={"/"}>
-            <img src={logoNegro} alt="" className="img-vertical w-100" />
-          </Link>
-        </div>
         <div className="col-12">
           <div className="d-inline-block texto-desc">
-            <p>sdadasda</p>
+            <p>
+              Te contamos un poco mas... En la cocina tenemos pava electrica,
+              tostadora, horno, anfe y todos los elementos para cocinar. Un
+              lavadero con plancha y mesa, Lavatorio y Lavarropas automatico. <br />
+              Nuestro living tiene un TV de 32" con chromecast con sillones para
+              disfrutar y al lado un amplio comedor
+            </p>
           </div>
         </div>
       </div>
