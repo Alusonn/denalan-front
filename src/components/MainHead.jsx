@@ -15,7 +15,7 @@ export const MainHead = () => {
     <div className="head">
       <div className="main">
         <Link to="/" className="">
-          <img src={logo} mt-xl-2 mt-3 mb-xl-3 className="logo" alt="logo" />
+          <img src={logo}  className="logo" alt="logo" />
         </Link>
         <h2 className="main-h2">Villa Gesell</h2>
         <img src={imagenMar} alt="" className="diseño-img-final" />

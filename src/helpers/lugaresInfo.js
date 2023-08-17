@@ -1,4 +1,8 @@
 export const departamento = {
+  personasCantidad: 6,
+  habitacionesCantidad: 1,
+  bañosCantidad: 1,
+  autosCantidad: 0,
   titulo: "Departamento Denalan",
   descripcion:
     "Una vivienda especial para jovenes o para familia de hasta 6 miembros, muy comodo por la ubicacion del centro de gesell y por sobre todo, por las playas geselinas, tenemos cocina y todos los utensillos para poder cocinar.",
@@ -12,6 +16,10 @@ export const departamento = {
 };
 
 export const casaTintaRoja = {
+  personasCantidad: 7,
+  habitacionesCantidad: 3,
+  bañosCantidad: 2,
+  autosCantidad: 3,
   titulo: "Casa Tinta Roja",
   descripcion:
     "Es una casa caracterizada por la *exclusividad* familiar, con capacidad de hasta 9 personas. La casa se ubica en la zona Centro-Sur de la ciudad de Villa Gesell, zona muy tranquila ideal para descansar con familia o con otra familia mas.",
@@ -23,6 +31,10 @@ export const casaTintaRoja = {
 };
 
 export const casaTintaRoja2 = {
+  personasCantidad: 4,
+  habitacionesCantidad: 1,
+  bañosCantidad: 1,
+  autosCantidad: 2,
   titulo: "Casa Tinta Roja 2",
   descripcion:
     "Es una cabaña excelente para descansar, es ideal para una pareja, o una familia pequeña de hasta 3 o 4 personas por la cama individual corrediza que tenemos 😎. Caracterizado por la comodidad y la tranquilidad de la zona.",

@@ -2,7 +2,7 @@ import logoNegro from "../data/SodaPDF-converted-F99D55AE-D025-46D8-8BFE-5F203C5
 import "../styles/components/Header.css";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";
-import { sliderTintaRojaMain } from "../helpers/sliderTintaRojaMain";
+import { sliderTintaRojaMain } from "../helpers/sliderTintaRoja";
 import ReactImageGallery from "react-image-gallery";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
@@ -10,14 +10,14 @@ import { BiBed } from "react-icons/bi";
 import { MdOutlineBathtub } from "react-icons/md";
 import { RiParkingLine } from "react-icons/ri";
 
-export const Header = () => {
+export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad, autosCantidad, titulo, descripcion }) => {
   return (
     <>
       <div className="container-fluid text-center">
         <div className="container">
           <div className="row">
             <div className="col-12 my-2">
-              <h1 className="titulo">Casa Tinta Roja 1</h1>
+              <h1 className="titulo">{ titulo }</h1>
             </div>
 
             {/* Ubicacion del logo de la izquierda que esta en vertical */}
@@ -51,7 +51,7 @@ export const Header = () => {
                 <h5>
                   Personas
                   <br />
-                  10
+                  { personasCantidad }
                 </h5>
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -60,7 +60,7 @@ export const Header = () => {
                 </span>
                 <h5>
                   Habitaciones
-                  <br />3
+                  <br />{ habitacionesCantidad }
                 </h5>
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -69,7 +69,7 @@ export const Header = () => {
                 </span>
                 <h5>
                   Baños
-                  <br />2
+                  <br />{ bañosCantidad }
                 </h5>
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -77,16 +77,13 @@ export const Header = () => {
                   <RiParkingLine size={60} className="mt-3" color="#FFFFFF" />
                 </span>
                 <h5>
-                  Autos <br />3
+                  Autos <br />{ autosCantidad }
                 </h5>
               </div>
             </div>
             <div className="col ">
-              <p className="d-inline-block texto-desc">
-                Es una casa caracterizada por la *exclusividad* familiar, con
-                capacidad de hasta 10 personas. Ubicada en zona sur de la Ciudad
-                de Villa Gesell, zona muy tranquila ideal para descansar en
-                familia
+              <p className="d-inline-block texto-desc p-3">
+                { descripcion }
               </p>
             </div>
           </div>
