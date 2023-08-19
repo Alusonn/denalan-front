@@ -4,9 +4,11 @@ import { Header } from "../components/Header";
 import { departamento } from "../helpers/lugaresInfo";
 import '../styles/components/CasaPage.css'
 import ReactImageGallery from "react-image-gallery";
-import { sliderTintaRojaFirstSection } from "../helpers/sliderTintaRoja";
+import { sliderDepartamentoMain } from "../helpers/sliderDepartamento";
 
 export const DeptoPage = () => {
+
+  
 
   return (
     <>
@@ -16,7 +18,7 @@ export const DeptoPage = () => {
         <div className="row justify-content-center align-items-center">
           <div className="col-12">
             <ReactImageGallery
-              items={sliderTintaRojaFirstSection}
+              items={sliderDepartamentoMain}
               lazyLoad={false}
               showPlayButton={false}
               autoPlay={true}
