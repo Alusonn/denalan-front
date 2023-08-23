@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
 import { CasaPage } from "../pages/CasaPage";
 import { ContactoPage } from "../pages/ContactoPage";
@@ -19,7 +19,7 @@ export const AppRouter = () => {
         <Route path="/casa-tinta-roja-2" element={<CasaPage2 />} />
         <Route path="/contacto" element={<ContactoPage />} />
         <Route path="/:id" element={<Propiedad />} />
-        <Route path="/*" element={<HomePage />} />
+        <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );
