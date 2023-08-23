@@ -11,6 +11,7 @@ import { MdOutlineBathtub } from "react-icons/md";
 import { RiParkingLine } from "react-icons/ri";
 
 export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad, autosCantidad, titulo, descripcion }) => {
+
   return (
     <>
       <div className="container-fluid text-center">
@@ -31,7 +32,7 @@ export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad,
               {/* Galeria desde NPM en react */}
 
               <ReactImageGallery
-                items={sliderTintaRojaMain}
+                items={ sliderTintaRojaMain }
                 lazyLoad={false}
                 showPlayButton={false}
                 autoPlay={true}
@@ -40,13 +41,13 @@ export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad,
                 showFullscreenButton={false}
               />
               <h4 className="numero-wpp my-3">
-                <AiOutlineWhatsApp className="mb-2" color="#FFFFFF"/> +54 9 2267520604
+                <AiOutlineWhatsApp className="mb-2" color="#655D51" size={40}/> +54 9 2267520604
               </h4>
             </div>
             <div className="col-12 col-sm-2">
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <BsPeople size={60} className="mt-3" color="#FFFFFF"/>
+                  <BsPeople size={60} className="mt-3" color="#000000"/>
                 </span>
                 <h5>
                   Personas
@@ -56,7 +57,7 @@ export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad,
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <BiBed size={60} className="mt-3" color="#FFFFFF"/>
+                  <BiBed size={60} className="mt-3" color="#000000"/>
                 </span>
                 <h5>
                   Habitaciones
@@ -65,7 +66,7 @@ export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad,
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <MdOutlineBathtub size={60} className="mt-3" color="#FFFFFF"/>
+                  <MdOutlineBathtub size={60} className="mt-3" color="#000000"/>
                 </span>
                 <h5>
                   Baños
@@ -74,7 +75,7 @@ export const Header = ({ personasCantidad, habitacionesCantidad, bañosCantidad,
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
                 <span>
-                  <RiParkingLine size={60} className="mt-3" color="#FFFFFF" />
+                  <RiParkingLine size={60} className="mt-3" color="#000000" />
                 </span>
                 <h5>
                   Autos <br />{ autosCantidad }

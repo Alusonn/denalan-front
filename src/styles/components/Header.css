@@ -1,6 +1,6 @@
 .titulo {
   display: inline-block;
-  color: #655d51;
+  color: #655D51;
   font-family: TAN Mon Cheri;
   font-size: 50px;
 }
@@ -10,10 +10,9 @@
 }
 
 .numero-wpp {
-  color: #f5f0ed;
+  color: #655D51;
   font-family: Belleza;
   display: inline;
-  background-color: #9d9895;
   padding-inline: 20px;
   border-radius: 10px;
 }
@@ -25,30 +24,22 @@
 .texto-desc {
   width: 80%;
   font-family: Belleza;
-  font-size: 1.5rem;
-  background-color: #9d9895;
+  font-size: 23px;
   border-radius: 20px;
-  color: #ffffff;
+  color: #655D51;
 }
 
 .octagono {
-  clip-path: polygon(
-    30% 0%,
-    70% 0%,
-    100% 30%,
-    100% 70%,
-    70% 100%,
-    30% 100%,
-    0% 70%,
-    0% 30%
-  );
-  background-color: #9d9895;
   width: 143px;
   height: 143px;
 }
 
 h5 {
-  color: #f5f0ed;
+  color: #000000;
+}
+
+.lista-ubicacion {
+  font-size: 20px;
 }
 
 @media (max-width: 800px) {

@@ -10,7 +10,11 @@ import instagram from "../data/Instagram.svg";
 import imagenMar from "../data/mar-Villa-Gesell.jpg";
 import "../styles/components/mainHead.css";
 
-export const MainHead = () => {
+
+
+
+
+const MainHead = () => {
   return (
     <div className="head">
       <div className="main">
@@ -70,3 +74,5 @@ export const MainHead = () => {
     </div>
   );
 };
+
+export default MainHead

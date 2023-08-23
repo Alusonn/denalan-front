@@ -1,18 +1,19 @@
-// Main Slider
+//  Main Slider
 
-import foto32 from "../data/foto32.webp";
-import foto35 from "../data/foto35.webp";
+import foto25 from "../data/foto25.webp";
+import foto26 from "../data/foto26.webp";
 
-export const sliderDepartamentoMain = [
+
+export const sliderTintaRoja2Main = [
   {
-    original: foto32,
+    original: foto25,
     originalAlt: "Foto de frente Casa Tinta Roja 1",
     originalWidth: "1600px",
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
   },
   {
-    original: foto35,
+    original: foto26,
     originalAlt: "Foto de frente Casa Tinta Roja 1",
     originalWidth: "1600px",
     originalHeigth: "1200px",
@@ -20,48 +21,45 @@ export const sliderDepartamentoMain = [
   },
 ];
 
-// First Section Slider
+//  First Section Slider
 
-import foto33 from "../data/foto33.webp";
-import foto34 from "../data/foto34.webp";
+import foto29 from "../data/foto29.webp";
+import foto30 from "../data/foto30.webp";
 
-
-export const sliderDepartamentoFirstSection = [
+export const sliderTintaRoja2FirstSection = [
   {
-    original: foto33,
+    original: foto29,
     originalAlt: "Foto de frente Casa Tinta Roja 1",
     originalWidth: "1600px",
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
+    id: "tinta-roja",
+    sectionSlider: "MainHead",
   },
   {
-    original: foto34,
+    original: foto30,
     originalAlt: "Foto de frente Casa Tinta Roja 1",
     originalWidth: "1600px",
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
-  }
-]
-
-// Second Section Slider
-
-import foto36 from "../data/foto36.webp";
-import foto37 from "../data/foto37.webp";
-
-
-export const sliderDepartamentoSecondSection = [
-  {
-    original: foto36,
-    originalAlt: "Foto de frente Casa Tinta Roja 1",
-    originalWidth: "1600px",
-    originalHeigth: "1200px",
-    originalClass: "mb-3 rounded-5",
+    id: "tinta-roja",
+    sectionSlider: "FirstSection",
   },
+];
+
+
+//  Second Section Slider
+
+import foto31 from "../data/foto31.webp";
+
+export const sliderTintaRoja2SecondSection = [
   {
-    original: foto37,
+    original: foto31,
     originalAlt: "Foto de frente Casa Tinta Roja 1",
     originalWidth: "1600px",
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
+    id: "tinta-roja",
+    sectionSlider: "MainHead",
   }
-]
+];
