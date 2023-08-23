@@ -10,7 +10,6 @@ export const AppRouter = () => {
   return (
     <>
       <Routes>
-        <HashRouter>
           <Route path="/" element={<HomePage />} />
           <Route path="/departamento" element={<DeptoPage />} />
           <Route path="/:casa-tinta-roja-1" element={<CasaPage />} />
@@ -18,7 +17,6 @@ export const AppRouter = () => {
           <Route path="/contacto" element={<ContactoPage />} />
           <Route path="/:id" element={<Propiedad />} />
           <Route path="/*" element={<Navigate to="/" />} />
-        </HashRouter>
       </Routes>
     </>
   );
