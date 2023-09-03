@@ -57,7 +57,8 @@ export const CasaPage = () => {
                 </span>
                 <h5>
                   Personas
-                  <br />7
+                  <br />
+                  10
                 </h5>
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -94,9 +95,10 @@ export const CasaPage = () => {
             <div className="col ">
               <p className="d-inline-block texto-desc p-3">
                 Es una casa caracterizada por la *exclusividad* familiar, con
-                capacidad de hasta 9 personas. La casa se ubica en la zona
-                Centro-Sur de la ciudad de Villa Gesell, zona muy tranquila
-                ideal para descansar con familia o con otra familia mas.
+                capacidad de hasta 10 personas con WIFI de fibra optica .
+                Ubicada en zona sur de la Ciudad de Villa Gesell, con amplio
+                parque, parrilla, mesa de ping pong, alarma y rejas en todo su
+                perimetro Mascotas: maximo 2 de tamaño pequeño
               </p>
             </div>
           </div>
@@ -122,7 +124,7 @@ export const CasaPage = () => {
               <p>
                 Te contamos un poco mas... En la cocina tenemos pava electrica,
                 tostadora, horno, anfe y todos los elementos para cocinar. Un
-                lavadero con plancha y mesa, Lavatorio y Lavarropas automatico.{" "}
+                lavadero con plancha y mesa, Lavatorio y Lavarropas automatico
                 <br />
                 Nuestro living tiene un TV de 32" con chromecast con sillones
                 para disfrutar y al lado un amplio comedor

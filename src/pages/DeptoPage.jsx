@@ -55,7 +55,7 @@ export const DeptoPage = () => {
                 </span>
                 <h5>
                   Personas
-                  <br />6
+                  <br />4
                 </h5>
               </div>
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -83,10 +83,10 @@ export const DeptoPage = () => {
             </div>
             <div className="col ">
               <p className="d-inline-block texto-desc p-3">
-                Una vivienda especial para jovenes o para familia de hasta 6
-                miembros, muy comodo por la ubicacion del centro de gesell y por
-                sobre todo, por las playas geselinas, tenemos cocina y todos los
-                utensillos para poder cocinar.
+                Departamento ubicado en zona centro de Villa Gesell, a 50 metros
+                donde comienza la peatonal y a 2 cuadras de la playa con
+                capacidad para 4 personas, con excelente WIFI de fibra optica y
+                Aire acondicionado frio-calor
               </p>
             </div>
           </div>
@@ -109,12 +109,11 @@ export const DeptoPage = () => {
           <div className="col-12">
             <div className="d-inline-block texto-desc p-3">
               <p>
-                Te contamos un poco mas... En la cocina tenemos pava electrica,
-                tostadora, horno, anfe y todos los elementos para cocinar. Un
-                lavadero con plancha y mesa, Lavatorio y Lavarropas automatico.
-                <br />
-                Nuestro living tiene un TV de 32" con chromecast con sillones
-                para disfrutar y al lado un amplio comedor
+                Te contamos un poco mas... <br />
+                En el comedor tenes 2 camas y 1 TV de 40" con chromcast , en la
+                cocina podes encontrar pava electrica, tostadora, horno
+                electrico con anafe, microondas y todos los elementos para
+                cocinar
               </p>
             </div>
           </div>
@@ -138,8 +137,8 @@ export const DeptoPage = () => {
             <div className="d-inline-block texto-desc p-3">
               <p>
                 En la habitacion tenes 1 cama matrimonial y un TV 32" equipada
-                con almohadas , frazadas y cubrecama mas 1 climatizador *NO
-                contamos con servicio de ropa blanca*
+                con almohadas , <br /> frazadas y cubrecama mas 1 climatizador{" "}
+                <br /> *NO contamos con servicio de ropa blanca*
               </p>
             </div>
           </div>
@@ -170,4 +169,3 @@ export const DeptoPage = () => {
     </>
   );
 };
-
