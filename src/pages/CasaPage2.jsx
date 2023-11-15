@@ -14,6 +14,7 @@ import {
   sliderTintaRoja2Main,
   sliderTintaRoja2SecondSection,
 } from "../helpers/sliderTintaRoja2";
+import ReactPlayer from "react-player";
 export const CasaPage2 = () => {
   return (
     <>
@@ -138,6 +139,24 @@ export const CasaPage2 = () => {
               slideInterval={6000}
               showFullscreenButton={false}
             />
+          </div>
+          <div className="col-12">
+            <div className="d-inline-block texto-desc p-3">
+              <p>
+                El dormitorio tiene aire acondicionado frio-calor 1 cama
+                matrimonial y 1 cama sillon con cama carrito debajo y 1 baño .
+                Te dejamos almohadas, frazadas y cubrecamas *NO contamos con
+                servicio de ropa blanca* Mascotas: maximo 2 de tamaño pequeño
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container text-center">
+        <hr />
+        <div className="row justify-content-center align-items-center">
+          <div className="col-6">
+            <ReactPlayer url={"https://youtube.com/shorts/oBjyOYhAZ4c"} controls={true} />
           </div>
           <div className="col-12">
             <div className="d-inline-block texto-desc p-3">
