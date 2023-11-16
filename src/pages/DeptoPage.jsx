@@ -1,5 +1,6 @@
 import { Footer } from "../components/Footer";
 import "../styles/components/CasaPage.css";
+import "../styles/components/Styles.css";
 import ReactImageGallery from "react-image-gallery";
 import {
   sliderDepartamentoFirstSection,
@@ -13,6 +14,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
 import { BiBed } from "react-icons/bi";
 import { MdOutlineBathtub } from "react-icons/md";
+import ReactPlayer from "react-player";
 
 export const DeptoPage = () => {
   return (
@@ -143,6 +145,19 @@ export const DeptoPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container text-center">
+        <hr />
+        <div className="row justify-content-center align-items-center">
+          <div className="videoPlayer">
+            <ReactPlayer
+              url={"https://www.youtube.com/watch?v=U1kutwcuoio"}
+              controls={true}
+              width={"100%"}
+            />
+          </div>
+        </div>
+        <hr />
       </div>
       <div className="container">
         <div className="row">

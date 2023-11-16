@@ -1,6 +1,7 @@
 import ReactImageGallery from "react-image-gallery";
 import { Footer } from "../components/Footer";
 import "../styles/components/CasaPage.css";
+import "../styles/components/Styles.css";
 import {
   sliderTintaRojaFirstSection,
   sliderTintaRojaMain,
@@ -15,6 +16,7 @@ import { BsPeople } from "react-icons/bs";
 import { BiBed } from "react-icons/bi";
 import { MdOutlineBathtub } from "react-icons/md";
 import { RiParkingLine } from "react-icons/ri";
+import ReactPlayer from "react-player";
 
 export const CasaPage = () => {
   return (
@@ -180,6 +182,7 @@ export const CasaPage = () => {
               showFullscreenButton={false}
             />
           </div>
+
           <div className="col-12">
             <div className="d-inline-block texto-desc p-3">
               <p>
@@ -191,6 +194,19 @@ export const CasaPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container text-center">
+        <hr />
+        <div className="row justify-content-center align-items-center">
+          <div className="videoPlayer">
+            <ReactPlayer
+              url={"https://www.youtube.com/watch?v=qp5wzJa_g68"}
+              controls={true}
+              width={"100%"}
+            />
+          </div>
+        </div>
+        <hr />
       </div>
       <div className="container">
         <div className="row">

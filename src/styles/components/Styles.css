@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+  .videoPlayer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+
+    .videoPlayer {
+        width: 50%;
+    }
+
+}

@@ -1,5 +1,6 @@
 import ReactImageGallery from "react-image-gallery";
 import { Footer } from "../components/Footer";
+import "../styles/components/Styles.css";
 import "../styles/components/CasaPage.css";
 import logoNegro from "../data/SodaPDF-converted-F99D55AE-D025-46D8-8BFE-5F203C5846D6-removebg-preview.png";
 import { Link } from "react-router-dom";
@@ -37,7 +38,7 @@ export const CasaPage2 = () => {
 
               <ReactImageGallery
                 items={sliderTintaRoja2Main}
-                lazyLoad={false}
+                lazyLoad={true}
                 showPlayButton={false}
                 autoPlay={true}
                 slideDuration={500}
@@ -107,7 +108,7 @@ export const CasaPage2 = () => {
           <div className="col-12">
             <ReactImageGallery
               items={sliderTintaRoja2FirstSection}
-              lazyLoad={false}
+              lazyLoad={true}
               showPlayButton={false}
               autoPlay={true}
               slideDuration={500}
@@ -132,7 +133,7 @@ export const CasaPage2 = () => {
           <div className="col-12">
             <ReactImageGallery
               items={sliderTintaRoja2SecondSection}
-              lazyLoad={false}
+              lazyLoad={true}
               showPlayButton={false}
               autoPlay={true}
               slideDuration={500}
@@ -155,20 +156,15 @@ export const CasaPage2 = () => {
       <div className="container text-center">
         <hr />
         <div className="row justify-content-center align-items-center">
-          <div className="col-6">
-            <ReactPlayer url={"https://youtube.com/shorts/oBjyOYhAZ4c"} controls={true} />
-          </div>
-          <div className="col-12">
-            <div className="d-inline-block texto-desc p-3">
-              <p>
-                El dormitorio tiene aire acondicionado frio-calor 1 cama
-                matrimonial y 1 cama sillon con cama carrito debajo y 1 baño .
-                Te dejamos almohadas, frazadas y cubrecamas *NO contamos con
-                servicio de ropa blanca* Mascotas: maximo 2 de tamaño pequeño
-              </p>
-            </div>
+          <div className="videoPlayer">
+            <ReactPlayer
+              url={"https://www.youtube.com/watch?v=oBjyOYhAZ4c"}
+              controls={true}
+              width={"100%"}
+            />
           </div>
         </div>
+        <hr />
       </div>
       <div className="container">
         <div className="row">
