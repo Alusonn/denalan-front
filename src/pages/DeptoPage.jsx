@@ -14,7 +14,6 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPeople } from "react-icons/bs";
 import { BiBed } from "react-icons/bi";
 import { MdOutlineBathtub } from "react-icons/md";
-import ReactPlayer from "react-player";
 
 export const DeptoPage = () => {
   return (
@@ -45,10 +44,21 @@ export const DeptoPage = () => {
                 slideInterval={6000}
                 showFullscreenButton={false}
               />
-              <h4 className="numero-wpp my-3">
-                <AiOutlineWhatsApp className="mb-2" color="#655D51" size={40} />{" "}
-                +54 9 2267520604
-              </h4>
+              <Link
+                to={"https://api.whatsapp.com/send?phone=5492267520604"}
+                target="_blank"
+                className="redes"
+                style={{ textDecoration: "none" }}
+              >
+                <h4 className="numero-wpp my-3">
+                  <AiOutlineWhatsApp
+                    className="mb-2"
+                    color="#655D51"
+                    size={40}
+                  />{" "}
+                  +54 9 2267520604
+                </h4>
+              </Link>
             </div>
             <div className="col-12 col-sm-2">
               <div className="octagono my-1 mx-1 d-inline-block">
@@ -146,19 +156,7 @@ export const DeptoPage = () => {
           </div>
         </div>
       </div>
-      <div className="container text-center">
-        <hr />
-        <div className="row justify-content-center align-items-center">
-          <div className="videoPlayer">
-            <ReactPlayer
-              url={"https://www.youtube.com/watch?v=U1kutwcuoio"}
-              controls={true}
-              width={"100%"}
-            />
-          </div>
-        </div>
-        <hr />
-      </div>
+      <hr />
       <div className="container">
         <div className="row">
           <iframe

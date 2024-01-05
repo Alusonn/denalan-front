@@ -1,4 +1,3 @@
-
 import whatsapp from "../data/whatsapp.svg";
 import facebook from "../data/Facebook.svg";
 import instagram from "../data/Instagram.svg";
@@ -21,7 +20,7 @@ export const Footer = () => {
         <h3 className="h3-redes">+54 9 2267520604</h3>
       </Link>
       <Link
-        to={"/casa-tinta-roja-1"}
+        to={"https://www.facebook.com/denalan.gesell"}
         target="_blank"
         className="redes"
         style={{ textDecoration: "none" }}
@@ -40,7 +39,7 @@ export const Footer = () => {
           alt="Instagram - @denalanvg"
           className="img-redes"
         />
-        <h3 className="h3-redes">@denalanalquileres</h3>
+        <h3 className="h3-redes">@denalanvg</h3>
       </Link>
     </footer>
   );

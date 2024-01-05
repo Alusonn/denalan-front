@@ -47,10 +47,21 @@ export const CasaPage = () => {
                 slideInterval={6000}
                 showFullscreenButton={false}
               />
-              <h4 className="numero-wpp my-3">
-                <AiOutlineWhatsApp className="mb-2" color="#655D51" size={40} />{" "}
-                +54 9 2267520604
-              </h4>
+              <Link
+                to={"https://api.whatsapp.com/send?phone=5492267520604"}
+                target="_blank"
+                className="redes"
+                style={{ textDecoration: "none" }}
+              >
+                <h4 className="numero-wpp my-3">
+                  <AiOutlineWhatsApp
+                    className="mb-2"
+                    color="#655D51"
+                    size={40}
+                  />{" "}
+                  +54 9 2267520604
+                </h4>
+              </Link>
             </div>
             <div className="col-12 col-sm-2">
               <div className="octagono my-1 mx-1 d-inline-block">

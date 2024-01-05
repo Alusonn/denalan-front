@@ -5,6 +5,7 @@ import foto24 from "../data/foto24.webp";
 import foto14 from "../data/foto14.webp";
 import foto15 from "../data/foto15.webp";
 import foto13 from "../data/foto13.webp";
+import foto39 from "../data/foto39.webp";
 
 export const sliderTintaRojaMain = [
   {
@@ -13,6 +14,15 @@ export const sliderTintaRojaMain = [
     originalWidth: "1600px",
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
+  },
+  {
+    original: foto39,
+    originalAlt: "Foto de frente Casa Tinta Roja 1",
+    originalWidth: "1600px",
+    originalHeigth: "1200px",
+    originalClass: "mb-3 rounded-5",
+    id: "tinta-roja",
+    sectionSlider: "MainHead",
   },
   {
     original: foto24,
@@ -153,6 +163,7 @@ import foto18 from "../data/foto18.webp";
 import foto19 from "../data/foto19.webp";
 import foto22 from "../data/foto22.webp";
 import foto23 from "../data/foto23.webp";
+import foto20 from "../data/foto20.webp";
 
 export const sliderTintaRojaThirdSection = [
   {
@@ -180,6 +191,15 @@ export const sliderTintaRojaThirdSection = [
     originalHeigth: "1200px",
     originalClass: "mb-3 rounded-5",
     id: "departamento",
+    sectionSlider: "MainHead",
+  },
+  {
+    original: foto20,
+    originalAlt: "Foto de frente Casa Tinta Roja 1",
+    originalWidth: "1600px",
+    originalHeigth: "1200px",
+    originalClass: "mb-3 rounded-5",
+    id: "tinta-roja",
     sectionSlider: "MainHead",
   },
   {
