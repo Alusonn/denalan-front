@@ -25,7 +25,7 @@ export const CasaPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 my-2">
-              <h1 className="titulo">Casa Tinta Roja</h1>
+              <h1 className="titulo">Casa Tinta Roja 1</h1>
             </div>
 
             {/* Ubicacion del logo de la izquierda que esta en vertical */}
